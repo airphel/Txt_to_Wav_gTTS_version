@@ -5,6 +5,7 @@
 #
 # msg-wav.sh
 Script made from that of F8ASB.
+
 Information message generator for HBLink server, FreeDMR, ...
 This program automatically generates a sound file in Wav format from a text entry in a .txt file.
 
