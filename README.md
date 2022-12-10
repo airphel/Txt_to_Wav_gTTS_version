@@ -33,7 +33,7 @@ Note: Punctuation can change the intonation of the voice.
 
 ### How the Python script works:
 
-The msg-wav.py script takes care of transforming a text file into its mp3 `output.mp3` with the gTTS and mpg321 modules then into wav with the ffmpeg module.
+The msg-wav.py script tranforms a text file into its mp3 `output.mp3` with the gTTS and mpg321 modules then into wav with the ffmpeg module.
 The output file will be called `message.wav`
 
 The command to use is:
