@@ -39,5 +39,5 @@ Le fichier de sortie s'appellera `message.wav`
 La commande d'utilsation est :
 `Python3 msg-wav.py <nomdufichiertexte>`
 
-Si vous le transformer en executable la commande ./ remplacera python3.
+Si vous le transformez en executable la commande ./ remplacera python3.
 (chmod +x msg-wav.py)
