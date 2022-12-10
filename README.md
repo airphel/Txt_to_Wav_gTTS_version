@@ -4,13 +4,13 @@
 #2022 airphel
 #
 # msg-wav.sh
-Script réalisé à partir du celui de F8ASB.
-Générateur de message d'information pour serveur HBLink, FreeDMR, ...
-Ce programme permet de générer automatiquement un fichier son au format Wav depuis une saisie de texte dans un fichier .txt. 
+Script made from that of F8ASB.
+Information message generator for HBLink server, FreeDMR, ...
+This program automatically generates a sound file in Wav format from a text entry in a .txt file.
 
-Le programme utilise la synthèse vocale de Google Text to Speech. 
+The program uses speech synthesis from Google Text to Speech.
  
-### Installation nécessaire pré-requise :
+### Necessary installation prerequisites:
 
 `pip install gTTS`
 
@@ -19,25 +19,25 @@ Le programme utilise la synthèse vocale de Google Text to Speech.
 `apt-get install mpg321`
 
 
-### Création du fichier :
+### File creation:
 
-1 - Dans le fichier gtts.py, choisir la langue de conversion.
+1 - In the gtts.py file, choose the conversion language.
 
-2 - Définir le contenu à convertir dans le fichier message.txt.
+2 - Define the content to convert in the message.txt file.
 
-3 - Le texte sera ensuite automatiquement transformer en voix et au format Wav. 
-Remarque : La ponctuation peut changer l'intonation de la voix.
+3 - The text will then automatically transform into voice and Wav format.
+Note: Punctuation can change the intonation of the voice.
 
-4 - Le programme réalise le fichier son, avec le bon format Wav 8k.
+4 - The program produces the sound file, with the correct Wav 8k format.
 
 
-### Comment fonctionne le script Python :
+### How the Python script works:
 
-Le script msg-wav.py s'occupe de transformer un fichier texte en son mp3 `output.mp3` avec les modules gTTS et mpg321 puis en wav avec le module ffmpeg.
-Le fichier de sortie s'appellera `message.wav`
+The msg-wav.py script takes care of transforming a text file into its mp3 `output.mp3` with the gTTS and mpg321 modules then into wav with the ffmpeg module.
+The output file will be called `message.wav`
 
-La commande d'utilsation est :
-`Python3 msg-wav.py <nomdufichiertexte>`
+The command to use is:
+`Python3 msg-wav.py <textfilename>`
 
-Si vous le transformez en executable la commande ./ remplacera python3.
+If you turn it into an executable the ./ command will replace python3.
 (chmod +x msg-wav.py)
